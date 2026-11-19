@@ -1,19 +1,15 @@
 <div align="left">
 
-# BrazID - Consulta de CPF e CNPJ com Dados Oficiais 
-
-**Consulta e validação de CPF e CNPJ, KYC e KYB em uma única API.**
-**CPF and CNPJ lookup and validation, KYC and KYB in a single API.**
-
-[![Website](https://img.shields.io/badge/site-brazid.com-0A66C2?style=for-the-badge)](https://brazid.com)
-[![Docs](https://img.shields.io/badge/docs-PT%20%7C%20EN%20%7C%20ES-111827?style=for-the-badge)](https://brazid.com/docs)
-[![Plano gratuito](https://img.shields.io/badge/plano%20gratuito-20%20créditos%2Fmês-16A34A?style=for-the-badge)](https://app.brazid.com)
-
 ![API](https://img.shields.io/badge/API-REST%20%2B%20JSON-0EA5E9)
 ![Sandbox](https://img.shields.io/badge/sandbox-gratuito-22C55E)
 ![LGPD](https://img.shields.io/badge/LGPD-privacidade%20por%20padrão-2563EB)
 ![Webhooks](https://img.shields.io/badge/webhooks-assinados-7C3AED)
 ![CNPJ alfanumérico](https://img.shields.io/badge/CNPJ-alfanumérico-F59E0B)
+
+# BrazID - Consulta de CPF e CNPJ com Dados Oficiais 
+
+**Consulta e validação de CPF e CNPJ, KYC e KYB em uma única API.**
+**CPF and CNPJ lookup and validation, KYC and KYB in a single API.**
 
 [🇧🇷 Português](#-português) · [🇺🇸 English](#-english)
 
