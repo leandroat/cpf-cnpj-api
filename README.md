@@ -1,59 +1,148 @@
-# cpf-cnpj-api
-BrazID API – Consulta de CPF, CNPJ, KYC e KYB em Tempo Real
-Automatize cadastros, valide identidades e mitigue riscos financeiros com a plataforma completa de dados cadastrais e Compliance-as-a-Service do Brasil.
-Sobre a BrazID
-A BrazID oferece uma API RESTful de alta performance para consultas de CPF e CNPJ em fontes públicas oficiais (Receita Federal, PGFN, CGU, TCU, MTE e listas internacionais), além de motores avançados de KYC (Pessoa Física) e KYB (Pessoa Jurídica).
-Diferente de APIs básicas que retornam apenas dados cadastrais rasos, a BrazID consolida verificações de risco, quadro societário, presença digital, mídia negativa e dossiês executivos prontos para auditoria, em total conformidade com a LGPD.
-Funcionalidades e Diferenciais
-￼ Dados Oficiais e Atualizados: Integração direta com bases governamentais e fontes públicas confiáveis.
-￼ Suíte Completa de Compliance (KYC & KYB):
-￼ KYB Corporativo (CNPJ): Dados cadastrais, QSA completo, Dívida Ativa da União (PGFN), sanções (CEIS, CNEP, CEPIM, TCU), trabalho escravo (MTE), listas internacionais (OFAC, ONU, UE), contratos federais, presença digital e análise de mídia negativa por IA.
-￼ KYC Individual (CPF): Validação cadastral, checagem de PEP (Pessoa Politicamente Exposta), expulsões federais (CEAF), PGFN e indicadores antifraude.
-￼ Relatórios Executivos (Dossiês em PDF): Geração automatizada de dossiês estruturados com trilha de auditoria e data das fontes consultadas.
-￼ Alta Performance e Escalabilidade: Respostas rápidas em JSON via arquitetura moderna em nuvem e edge computing.
-￼ Ambiente Sandbox e Webhooks: Testes gratuitos em ambiente de homologação e suporte a consultas em lote assíncronas.
-￼ Conformidade com a LGPD: Tratamento de dados estritamente voltado à prevenção a fraudes e PLD/FT (Art. 7º, IX), com retenção controlada e segurança ponta a ponta.
-Casos de Uso
-￼ Fintechs e Bancos Digitais: Onboarding automatizado de contas PF/PJ, prevenção à lavagem de dinheiro (PLD/FT) e análise de crédito.
-￼ SaaS B2B, ERPs e CRMs: Preenchimento automático de formulários (autofill) via CNPJ/CPF e higienização de bases de clientes.
-￼ Marketplaces e E-commerces: Homologação de sellers e fornecedores antes do repasse financeiro.
-￼ Plataformas de Pagamento e Bets: Validação de titularidade e checagem de risco em operações Pix.
-￼ Jurídico e Risco Corporativo: Due diligence rápida de parceiros comerciais com emissão de dossiê em PDF.
-Como Começar
-1. Crie sua conta gratuita: Acesse brazid.com e gere sua chave de API.
-2. Explore a documentação: Veja todos os recursos, parâmetros e códigos de retorno em brazid.com/docs.
-3. Teste no Sandbox: Utilize nossas credenciais de homologação para integrar sem consumir créditos reais.
-4. Integre via API REST: Requisições HTTP padrão com autenticação segura e respostas estruturadas em JSON.
-Links Úteis
-￼ Site Oficial: https://brazid.com
-￼ Documentação da API: https://brazid.com/docs
-￼ Suporte Técnico: contato@brazid.com
-BrazID API – Real-Time Brazilian CPF, CNPJ, KYC & KYB Verification
-Automate onboarding, verify identities, and mitigate financial risk with Brazil's comprehensive identity and Compliance-as-a-Service API.
-About BrazID
-BrazID provides a high-performance RESTful API for real-time CPF (Individual) and CNPJ (Corporate) lookups across official Brazilian public databases (Receita Federal, PGFN, CGU, TCU, MTE, and international watchlists), paired with automated KYC and KYB risk intelligence engines.
-Unlike commodity APIs that only return basic registration fields, BrazID aggregates corporate ownership (QSA), federal tax debts, sanctions, digital footprint analysis, AI-powered adverse media screening, and audit-ready PDF dossiers—fully compliant with LGPD (Brazilian General Data Protection Law).
-Features & Highlights
-￼ Official & Up-to-Date Data: Direct integration with authoritative Brazilian government sources and global watchlists.
-￼ End-to-End Compliance Suite (KYC & KYB):
-￼ Corporate KYB (CNPJ): Federal registration data, corporate partners (QSA), Federal Active Debt (PGFN), debarment & sanctions lists (CEIS, CNEP, CEPIM, TCU), Slave Labor Registry (MTE), global sanctions (OFAC, UN, EU), federal contracts, digital presence, and AI-driven negative news screening.
-￼ Individual KYC (CPF): Identity validation, PEP (Politically Exposed Person) screening, federal administrative expulsions (CEAF), PGFN tax debt, and anti-fraud indicators.
-￼ Audit-Ready PDF Dossiers: Automated generation of structured compliance reports with source timestamps and risk summaries.
-￼ High Performance & Low Latency: Fast JSON responses powered by modern cloud and edge infrastructure.
-￼ Sandbox Environment & Webhooks: Free testing environment and asynchronous batch processing support.
-￼ LGPD Compliant: Strict adherence to fraud prevention and AML/CFT legal bases (LGPD Art. 7, IX), with controlled data retention and end-to-end encryption.
-Use Cases
-￼ Fintechs & Digital Banks: Automated individual/corporate onboarding, AML/CFT compliance, and credit underwriting.
-￼ B2B SaaS, ERPs & CRMs: Instant form autofill via CPF/CNPJ and database enrichment.
-￼ Marketplaces & E-commerce: Seller and vendor due diligence prior to payouts.
-￼ Payment Gateways & iGaming: Identity ownership verification and risk scoring for Pix transactions.
-￼ Legal & Risk Teams: Rapid counterparty background checks with downloadable PDF audit dossiers.
-Getting Started
-1. Create a free account: Visit brazid.com to obtain your API key.
-2. Read the docs: Explore features, schemas, and status codes at brazid.com/docs.
-3. Test in Sandbox: Use sandbox credentials to build and test your integration at zero cost.
-4. Integrate via REST: Standard HTTP requests with secure authentication and clean JSON payloads.
-Useful Links
-￼ Official Website: https://brazid.com
-￼ API Documentation: https://brazid.com/docs
-￼ Technical Support: contato@brazid.com
+<div align="center">
+
+# 🇧🇷 BrazID
+
+**Consulta e validação de CPF e CNPJ, KYC e KYB em uma única API.**
+**CPF and CNPJ lookup and validation, KYC and KYB in a single API.**
+
+[![Website](https://img.shields.io/badge/site-brazid.com-0A66C2?style=for-the-badge)](https://brazid.com)
+[![Docs](https://img.shields.io/badge/docs-PT%20%7C%20EN%20%7C%20ES-111827?style=for-the-badge)](https://brazid.com/docs)
+[![Plano gratuito](https://img.shields.io/badge/plano%20gratuito-20%20créditos%2Fmês-16A34A?style=for-the-badge)](https://app.brazid.com)
+
+![API](https://img.shields.io/badge/API-REST%20%2B%20JSON-0EA5E9)
+![Sandbox](https://img.shields.io/badge/sandbox-gratuito-22C55E)
+![LGPD](https://img.shields.io/badge/LGPD-privacidade%20por%20padrão-2563EB)
+![Webhooks](https://img.shields.io/badge/webhooks-assinados-7C3AED)
+![CNPJ alfanumérico](https://img.shields.io/badge/CNPJ-alfanumérico-F59E0B)
+
+[🇧🇷 Português](#-português) · [🇺🇸 English](#-english)
+
+</div>
+
+---
+
+## 🇧🇷 Português
+
+### 🚀 O que é a BrazID
+
+A **BrazID** é uma plataforma brasileira de verificação de identidade para empresas. Com uma única integração, você consulta e valida **CPF** e **CNPJ**, confere a situação cadastral e roda verificações de **compliance (KYC e KYB)** contra listas públicas de sanções e restrições.
+
+Feita para times de produto, risco e compliance que precisam de dados confiáveis, resposta rápida e cobrança justa: **só paga pela consulta que dá certo.**
+
+### 🛠️ Produtos
+
+| | Produto | Para quê |
+|---|---|---|
+| 🪪 | **Consulta de CPF** | Nome e data de nascimento a partir do CPF. |
+| ✅ | **Consulta de situação do CPF** | Confirma a situação cadastral do titular (regular, suspenso, falecido e outras). |
+| 🏢 | **Consulta de CNPJ** | Razão social, situação, atividades, endereço, porte, regime tributário e quadro societário. |
+| 📦 | **Consultas em lote** | Milhares de CPFs ou CNPJs de uma vez, com aviso por webhook ao terminar. |
+| 🔢 | **Validação gratuita** | Confere o formato e os dígitos verificadores de CPF e CNPJ, sem gastar créditos. |
+| 🛡️ | **Compliance KYC (pessoa física)** | Verificação cadastral, PEP, sanções nacionais e internacionais, trabalho escravo e dívida ativa, com matriz de risco. |
+| 🏛️ | **Compliance KYB (pessoa jurídica)** | A empresa e seus sócios em listas de sanções, dívida ativa, presença digital, contratos com o governo e notícias públicas. |
+
+### ⚡ Diferenciais
+
+- 💸 **Você só paga pelo que funciona.** Erros, documentos inválidos e consultas sem resultado não consomem créditos.
+- 🧪 **Sandbox gratuito** com massa de testes pronta, para integrar sem gastar nada.
+- 🔐 **Privacidade levada a sério.** Documentos mascarados para a equipe interna, prazos de retenção por plano e remoção a pedido do titular.
+- 🔔 **Webhooks assinados**, com novas tentativas automáticas e histórico de entregas.
+- 📊 **Painel completo:** métricas de uso, logs das consultas, chaves de API, equipe e cobrança em um só lugar.
+- 🆕 **Pronta para o CNPJ alfanumérico**, em vigor desde julho de 2026.
+- 🌎 **Documentação em português, inglês e espanhol.**
+- 🏢 **Plano Corporativo** com SSO, equipe com papéis e condições sob medida.
+
+### 🎯 Casos de uso
+
+- 🏦 Onboarding de clientes em fintechs, bancos e meios de pagamento
+- 🛒 Prevenção a fraude em e-commerce e marketplaces
+- 🤝 Homologação de fornecedores e parceiros (KYB)
+- ⚖️ PLD/FT e due diligence de pessoas e empresas
+- 📋 Higienização e atualização de bases cadastrais
+- 🧾 Validação de dados em cadastros, propostas e contratos
+
+### 💳 Planos
+
+| Plano | Para quem |
+|---|---|
+| 🆓 **Gratuito** | 20 créditos por mês, sem cartão de crédito. Ideal para testar. |
+| 🚀 **Pro** | Pacotes mensais de créditos com consumo excedente opcional, para não parar sua operação. |
+| 🏢 **Corporativo** | Alto volume, SSO, equipe, contrato e faturamento sob medida. |
+
+Veja os valores atualizados em **[brazid.com](https://brazid.com)**.
+
+### 📦 Como começar
+
+1. 📝 **Crie sua conta grátis** em [app.brazid.com](https://app.brazid.com)
+2. 🔑 **Gere uma chave de API** de sandbox ou de produção no painel
+3. 📚 **Siga a documentação** em [brazid.com/docs](https://brazid.com/docs)
+4. 🚀 **Teste no sandbox** e vá para a produção quando estiver pronto
+
+---
+
+## 🇺🇸 English
+
+### 🚀 What is BrazID
+
+**BrazID** is a Brazilian identity verification platform for businesses. With a single integration, you can look up and validate **CPF** (individual taxpayer ID) and **CNPJ** (company ID), check registration status and run **compliance checks (KYC and KYB)** against public sanctions and restriction lists.
+
+Built for product, risk and compliance teams that need reliable data, fast responses and fair billing: **you only pay for lookups that succeed.**
+
+### 🛠️ Products
+
+| | Product | What it does |
+|---|---|---|
+| 🪪 | **CPF lookup** | Name and date of birth from a CPF. |
+| ✅ | **CPF status lookup** | Confirms the holder's registration status (regular, suspended, deceased and more). |
+| 🏢 | **CNPJ lookup** | Legal name, status, activities, address, size, tax regime and partners. |
+| 📦 | **Batch lookups** | Thousands of CPFs or CNPJs at once, with a webhook when done. |
+| 🔢 | **Free validation** | Checks CPF and CNPJ format and check digits, at no credit cost. |
+| 🛡️ | **KYC compliance (individuals)** | Registration check, PEP, Brazilian and international sanctions, forced labor and tax debt, with a risk matrix. |
+| 🏛️ | **KYB compliance (companies)** | The company and its partners against sanctions lists, tax debt, digital presence, government contracts and public news. |
+
+### ⚡ Why BrazID
+
+- 💸 **You only pay for what works.** Errors, invalid documents and lookups with no result don't use credits.
+- 🧪 **Free sandbox** with ready-made test data, so you can integrate at no cost.
+- 🔐 **Privacy by default.** Documents masked for internal staff, retention periods by plan and removal on the data subject's request.
+- 🔔 **Signed webhooks**, with automatic retries and delivery history.
+- 📊 **Full dashboard:** usage metrics, lookup logs, API keys, team and billing in one place.
+- 🆕 **Ready for the alphanumeric CNPJ**, in effect since July 2026.
+- 🌎 **Documentation in English, Portuguese and Spanish.**
+- 🏢 **Corporate plan** with SSO, role-based teams and custom terms.
+
+### 🎯 Use cases
+
+- 🏦 Customer onboarding for fintechs, banks and payment companies
+- 🛒 Fraud prevention for e-commerce and marketplaces
+- 🤝 Supplier and partner due diligence (KYB)
+- ⚖️ AML/CFT and due diligence on people and companies
+- 📋 Cleaning and updating customer databases
+- 🧾 Data validation in sign-ups, proposals and contracts
+
+### 💳 Plans
+
+| Plan | Who it's for |
+|---|---|
+| 🆓 **Free** | 20 credits per month, no credit card required. Great for testing. |
+| 🚀 **Pro** | Monthly credit packages with optional overage, so your operation never stops. |
+| 🏢 **Corporate** | High volume, SSO, teams, custom contract and billing. |
+
+Companies outside Brazil are billed in US dollars. See current prices at **[brazid.com/en](https://brazid.com/en)**.
+
+### 📦 Getting started
+
+1. 📝 **Create a free account** at [app.brazid.com](https://app.brazid.com)
+2. 🔑 **Generate an API key** for sandbox or production in the dashboard
+3. 📚 **Follow the docs** at [brazid.com/en/docs](https://brazid.com/en/docs)
+4. 🚀 **Test in the sandbox** and go live when you're ready
+
+---
+
+<div align="center">
+
+**[brazid.com](https://brazid.com)** · **[Painel / Dashboard](https://app.brazid.com)** · **[Docs](https://brazid.com/docs)** · 📧 suporte@brazid.com
+
+Feito no Brasil 🇧🇷 · Made in Brazil
+
+</div>
