@@ -9,7 +9,6 @@
 # BrazID - Consulta de CPF e CNPJ com Dados Oficiais 
 
 **Consulta e validação de CPF e CNPJ, KYC e KYB em uma única API.**
-
 **CPF and CNPJ lookup and validation, KYC and KYB in a single API.**
 
 [🇧🇷 Português](#-português) · [🇺🇸 English](#-english)
