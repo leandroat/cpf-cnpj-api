@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🇧🇷 BrazID
+# BrazID
 
 **Consulta e validação de CPF e CNPJ, KYC e KYB em uma única API.**
 **CPF and CNPJ lookup and validation, KYC and KYB in a single API.**
@@ -143,6 +143,6 @@ Companies outside Brazil are billed in US dollars. See current prices at **[braz
 
 **[brazid.com](https://brazid.com)** · **[Painel / Dashboard](https://app.brazid.com)** · **[Docs](https://brazid.com/docs)** · 📧 suporte@brazid.com
 
-Feito no Brasil 🇧🇷 · Made in Brazil
+Feito no Brasil · Made in Brazil
 
 </div>
